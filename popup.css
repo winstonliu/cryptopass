@@ -51,20 +51,13 @@ input:focus {
   text-align: right;
 }
 button {
-  /*
-    background: #f4f4f4 -webkit-gradient(linear,left top,left bottom,
-                        color-stop(0, #fafafa),color-stop(1, #ccc));
-    border: 1px solid #aaa;
-    border-radius: 5px;
-    padding: 3px 10px;
-    margin-top: 3px;
-    text-shadow: 0 1px #f4f4f4;
-  */
-  background-image: -webkit-linear-gradient(#e8e8e8, #e8e8e8 38%, #d8d8d8);
-  background-color: rgba(0, 0, 0, 0.3);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.12), inset 0 1px 2px rgba(255, 255, 255, 0.95);
-  color: black;
-  text-shadow: 0 1px 0 #F0F0F0;
+  background: #f4f4f4 -webkit-gradient(linear,left top,left bottom,
+                      color-stop(0, #fafafa),color-stop(1, #ccc));
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin-top: 3px;
+  text-shadow: 0 1px #f4f4f4;
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 2px;
   margin: 0 1px 0 0;
@@ -78,10 +71,8 @@ button:hover {
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
 button:active {
-    /*background: #f4f4f4 -webkit-gradient(linear,left top,left bottom,
-                        color-stop(1, #ddd),color-stop(0, #bbb))
-                        */
-  background-image: none;
+  background: #f4f4f4 -webkit-gradient(linear,left top,left bottom,
+                      color-stop(1, #ddd),color-stop(0, #bbb))
   background-color: rgba(0, 0, 0, 0.15);
   box-shadow: none;
 }

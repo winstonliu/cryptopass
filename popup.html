@@ -24,15 +24,20 @@
         <td class="label">URL</td> 
         <td class="input" colspan=2><input type="text" spellcheck="false"  id="url" value=""></td> 
       </tr>
+    </table>
+    <table>
       <tr class="length"> 
         <td class="label">Length</td> 
-        <td class="input">
-          <input type="text" id="length" value="25" size="2"> characters 
-        </td>
+        <td class="input"><input type="text" id="length" value="25" size="2"> </td>
+        <td class="label">|</td>
+        <td><label for="use_base64url"> Use Base64Url</label></td> 
+        <td><input type="checkbox" id="use_base64url" value=""></td>
+        <td class="label">|</td>
         <td class="buttons">
           <button id="fill-button"><b>&nbsp; Fill &nbsp;</b></button>
           <button id="show-button">Show</button>
-      </td></tr> 
+        </td>
+      </tr>
     </table> 
   </form>
   <div id="result-box"></div> 
